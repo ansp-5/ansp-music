@@ -5,7 +5,7 @@ export function Header() {
     const nav_items = [
         {href: "/", name: "Home"},
         {href: "/", name: "仮面ライダーギーツ"},
-        {href: "/", name: "仮面ライダーゼッツ"},
+        {href: "/kzzz", name: "仮面ライダーゼッツ"},
         {href: "/", name: "戦国 A LIVE"},
         {href: "/", name: "文豪ストレイドッグス"},
         {href: "/", name: "ペルソナ５"},

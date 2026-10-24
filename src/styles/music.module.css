@@ -1,0 +1,31 @@
+.musicList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: stretch;
+}
+
+.musicCard {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    padding: 16px;
+    margin-left: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.thumbnail {
+    display: block;
+    width: 100%;
+    margin-top: auto;
+    padding-top: 12px;
+}
+
+.thumbnail img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: contain;
+}
