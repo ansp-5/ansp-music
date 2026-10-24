@@ -7,8 +7,8 @@ export function Header({theme}) {
         {href: "/kgeats", name: "仮面ライダーギーツ"},
         {href: "/kzzz", name: "仮面ライダーゼッツ"},
         {href: "/snal", name: "戦国 A LIVE"},
-        {href: "/", name: "文豪ストレイドッグス"},
-        {href: "/", name: "ペルソナ５"},
+        {href: "/bsd", name: "文豪ストレイドッグス"},
+        {href: "/p5", name: "ペルソナ５"},
     ]
 
     const themes = {theme};
