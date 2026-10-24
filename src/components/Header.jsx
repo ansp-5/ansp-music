@@ -4,7 +4,7 @@ import styles from '../styles/Home.module.css'
 export function Header() {
     const nav_items = [
         {href: "/", name: "Home"},
-        {href: "/", name: "仮面ライダーギーツ"},
+        {href: "/kgeats", name: "仮面ライダーギーツ"},
         {href: "/kzzz", name: "仮面ライダーゼッツ"},
         {href: "/", name: "戦国 A LIVE"},
         {href: "/", name: "文豪ストレイドッグス"},
