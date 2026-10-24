@@ -6,7 +6,7 @@ export function Header({theme}) {
         {href: "/", name: "Home"},
         {href: "/kgeats", name: "仮面ライダーギーツ"},
         {href: "/kzzz", name: "仮面ライダーゼッツ"},
-        {href: "/", name: "戦国 A LIVE"},
+        {href: "/snal", name: "戦国 A LIVE"},
         {href: "/", name: "文豪ストレイドッグス"},
         {href: "/", name: "ペルソナ５"},
     ]

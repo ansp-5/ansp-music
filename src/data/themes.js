@@ -14,6 +14,11 @@ export const themes = {
         sub: "#DA1A18",
         deco: "#079580",
     },
+    snal: {
+        main: "#47E0FE",
+        sub: "#1A0D0B",
+        deco: "#FFFFFF",
+    },
     bsd: {
         main: "#E5CDB7",
         sub: "#281913",
