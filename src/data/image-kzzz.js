@@ -1,4 +1,4 @@
-export const imagekzzz = [
+export const imagesong = [
     // {
     //     title: "",
     //     artist: "",

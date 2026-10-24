@@ -7,7 +7,7 @@ import { Header } from '../components/Header'
 import { Footer } from '../components/Footer'
 
 // データ
-import { imagekzzz } from '../data/image-kzzz'
+import { imagesong } from '../data/image-kzzz'
 
 function getYouTubeId(url) {
     try {
@@ -48,7 +48,7 @@ export default function Home() {
 
       <main>
             <div className={styles.musicList}>
-                {imagekzzz.map((music) => {
+                {imagesong.map((music) => {
                     const videoId = getYouTubeId(music.url);
                     
                     return (
