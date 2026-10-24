@@ -10,7 +10,7 @@ export const imagesong = [
     {
         title: "カミサマネジマキ",
         artist: "KEMU VOXX",
-        carname: [ "" ],
+        carname: [ "仮面ライダーゼッツ" ],
         reason: "コード：ソムニア",
         url: "https://www.youtube.com/watch?v=XMdIGSyFKCk",
     },

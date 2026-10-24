@@ -1,8 +1,21 @@
+.page {
+    min-height: 100vh;
+    background-color: var(--main-color);
+    color: white;
+}
+
+.main {
+    padding: 24px;
+}
+
+/* 全体 */
 .musicList {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
     align-items: stretch;
+    padding: 10px;
+    justify-content: center;
 }
 
 .musicCard {
@@ -12,20 +25,21 @@
     padding: 16px;
     margin-left: 10px;
     box-sizing: border-box;
-    border: 1px solid #ccc;
+    border: 1px solid var(--deco-color);
+    color: var(--sub-color);
     border-radius: 8px;
 }
 
 .thumbnail {
     display: block;
     width: 100%;
-    margin-top: auto;
+    /* margin-top: auto; */
     padding-top: 12px;
 }
 
-.thumbnail img {
+/* .thumbnail img {
     display: block;
     width: 100%;
     aspect-ratio: 16 / 9;
     object-fit: contain;
-}
+} */

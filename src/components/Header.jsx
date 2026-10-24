@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 
-export function Header() {
+export function Header({theme}) {
     const nav_items = [
         {href: "/", name: "Home"},
         {href: "/kgeats", name: "仮面ライダーギーツ"},
@@ -11,8 +11,10 @@ export function Header() {
         {href: "/", name: "ペルソナ５"},
     ]
 
+    const themes = {theme};
+
   return (
-    <header>
+    <header className={styles.header}>
         <h1>イメソン</h1>
 
         {nav_items.map((item, index) => (
